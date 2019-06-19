@@ -5,14 +5,14 @@
 
 class EmailParser
 
-  attr_accessor :csv_emails, :name 
+  attr_accessor :csv_emails, :name
 
   def initialize(csv_emails)
     @csv_emails = csv_emails
   end
 
   def parse
-
+    binding.pry 
   end
 
 end
