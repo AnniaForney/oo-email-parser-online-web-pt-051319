@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    csv_emails.gsub(", " ," ").split.uniq! 
+    csv_emails.gsub(", " ," ").split.uniq
   end
 
 end
