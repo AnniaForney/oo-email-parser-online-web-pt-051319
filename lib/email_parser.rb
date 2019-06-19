@@ -7,8 +7,8 @@ class EmailParser
 
   attr_accessor :csv_emails
 
-  def parse 
+  def parse
     
-  end 
+  end
 
 end
