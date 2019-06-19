@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    csv_emails.split(" , ")
+    csv_emails[0].split(" , ")
   end
 
 end
